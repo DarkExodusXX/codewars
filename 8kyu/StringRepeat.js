@@ -1,0 +1,1 @@
+const repeatStr = (count, str) => str.repeat(count);
