@@ -1,1 +1,3 @@
-const areaOrPerimeter = (l , w) => 2 * (l + w);
+const areaOrPerimeter = (l , w) => {
+  return l === w ? l * l : 2 * (l + w);
+};
