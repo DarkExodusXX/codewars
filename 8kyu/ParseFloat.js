@@ -1,0 +1,1 @@
+const parseF = (s) => isNaN(Number.parseFloat(s)) ? null : Number.parseFloat(s);
